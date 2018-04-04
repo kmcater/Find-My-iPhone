@@ -1,0 +1,76 @@
+#theBody
+{
+  background-color: grey;
+  height: 100px;
+  width: 300px;
+  position: absolute;
+  margin-right: 550px;
+  margin-left: 550px;
+}
+#workArea
+{
+  background-color: white;
+  height: 650px;
+  border-radius: 10px;
+  position: absolute;
+}
+#radarIcon
+{
+  width: 150px;
+  height: 200px;
+  display: block;
+  margin: 75px auto 35px auto;
+}
+form
+{
+  margin-bottom: 30px;
+  padding: 0 40px 0 40px
+}
+#username
+{
+  border-radius: 5px;
+}
+#password
+{
+  border-radius: 5px;
+}
+#signInButton
+{
+  display: block;
+  margin: 20px auto 20px auto;
+  width: 200px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;  
+}
+a:link, a:visited, a:hover, a:active {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+#warningMessage
+{
+  background-color: LightGray;
+  color: green;
+  border-radius: 7px;
+  display: none;
+}
+#warningMessage p
+{
+  margin-right: 5px;
+  padding: 0px 20px 0px 10px;
+}
+#warningButton
+{
+  position: absolute;
+  left: 89.5%;
+  bottom: 91%;
+  border-radius: 0px 10px 0px 10px;
+}
+#successButton
+{
+  position: absolute;
+  left: 89.5%;
+  bottom: 90.4%;
+  border-radius: 0px 10px 10px 0px;
+}
